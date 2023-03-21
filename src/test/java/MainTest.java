@@ -1,6 +1,7 @@
 import org.example.Main;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 
 public class MainTest {
@@ -18,7 +19,7 @@ public class MainTest {
         assertNotEquals("Square Root Test 1", 1, obj.SquareRoot(4), 0.001);
         assertNotEquals("Factorial Test 1", 0, obj.factorial(0), 0.001);
         assertNotEquals("Log Test 1", 2, obj.log(10), 0.001);
-        
+
     }
 
 }
