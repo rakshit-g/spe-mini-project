@@ -16,30 +16,30 @@ public class Main {
             switch(inp) {
                 case 1:
                     System.out.print("(Factorial Function) Enter a number : ");
-                    n1 = scanner.nextDouble();
+                    double n1 = scanner.nextDouble();
                     System.out.println("Factorial of "+n1+" is : " + obj.factorial(n1));
                     System.out.println("\n");
                     break;
 
                 case 2:
                     System.out.print("(FSquareRoot Function) Enter a number : ");
-                    n1 = scanner.nextDouble();
+                    double n1 = scanner.nextDouble();
                     System.out.println("Square root of "+n1+" is : " + obj.SquareRoot(n1));
                     System.out.println("\n");
                     break;
 
                 case 3:
                     System.out.print("(log Function) Enter a number : ");
-                    n1 = scanner.nextDouble();
+                    double n1 = scanner.nextDouble();
                     System.out.println("Natural Log of "+n1+" is : " + obj.log(n1));
                     System.out.println("\n");
                     break;
 
                 case 4:
                     System.out.print("(Power Function) Enter a number1 : ");
-                    n1 = scanner.nextDouble();
+                    double n1 = scanner.nextDouble();
                     System.out.print("(Power Function) Enter a number2 : ");
-                    n2 = scanner.nextDouble();
+                    double n2 = scanner.nextDouble();
                     System.out.println(n1+ " raised to power "+n2+" is : " + obj.power(n1, n2));
                     System.out.println("\n");
                     break;
