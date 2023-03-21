@@ -8,7 +8,7 @@ public class Main {
         Main obj= new Main();
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("enter number: ");
+        System.out.print("enter number please: ");
         int n = scanner.nextInt();
         System.out.println(obj.factorial(n));
     }
