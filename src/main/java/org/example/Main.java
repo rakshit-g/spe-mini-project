@@ -23,24 +23,24 @@ public class Main {
 
                 case 2:
                     System.out.print("(FSquareRoot Function) Enter a number : ");
-                    double n1 = scanner.nextDouble();
-                    System.out.println("Square root of "+n1+" is : " + obj.SquareRoot(n1));
+                    double n2 = scanner.nextDouble();
+                    System.out.println("Square root of "+n2+" is : " + obj.SquareRoot(n2);
                     System.out.println("\n");
                     break;
 
                 case 3:
                     System.out.print("(log Function) Enter a number : ");
-                    double n1 = scanner.nextDouble();
-                    System.out.println("Natural Log of "+n1+" is : " + obj.log(n1));
+                    double n3 = scanner.nextDouble();
+                    System.out.println("Natural Log of "+n3+" is : " + obj.log(n3));
                     System.out.println("\n");
                     break;
 
                 case 4:
                     System.out.print("(Power Function) Enter a number1 : ");
-                    double n1 = scanner.nextDouble();
+                    double n4 = scanner.nextDouble();
                     System.out.print("(Power Function) Enter a number2 : ");
-                    double n2 = scanner.nextDouble();
-                    System.out.println(n1+ " raised to power "+n2+" is : " + obj.power(n1, n2));
+                    double n5 = scanner.nextDouble();
+                    System.out.println(n4+ " raised to power "+n5+" is : " + obj.power(n4, n5));
                     System.out.println("\n");
                     break;
             }
