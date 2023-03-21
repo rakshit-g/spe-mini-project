@@ -24,7 +24,7 @@ public class Main {
                 case 2:
                     System.out.print("(FSquareRoot Function) Enter a number : ");
                     double n2 = scanner.nextDouble();
-                    System.out.println("Square root of "+n2+" is : " + obj.SquareRoot(n2);
+                    System.out.println("Square root of "+n2+" is : " + obj.SquareRoot(n2));
                     System.out.println("\n");
                     break;
 
