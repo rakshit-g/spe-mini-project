@@ -1,8 +1,11 @@
 package org.example;
 
 import java.util.Scanner;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 public class Main {
+
+    private static Logger log = LogManager.getLogger(Main.class);
     public static void main(String[] args) {
 
         Main obj= new Main();
@@ -51,19 +54,25 @@ public class Main {
         for(double i=1;i<=n;i++){
             res = res*i;
         }
+        log.info("factorial of " + n + " is: " + res);
         return res;
     }
     public double SquareRoot(double n){
         double res = Math.sqrt(n);
+        log.info("square root of " + n + " is: " + res);
         return res;
 
     }
 
     public double log(double n){
-        return Math.log(n);
+        double res = Math.log(n);
+        log.info("natural logarithm of " + n + " is: " + res);
+        return res;
     }
 
     public double power(double n1, double n2){
-        return Math.pow(n1,n2);
+        double res =Math.pow(n1,n2);
+        log.info("Output of " + n1 + " to the power of " + n2 + " is: " + res);
+        return res;
     }
 }
